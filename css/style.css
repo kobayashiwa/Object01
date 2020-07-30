@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0;
+	font-family: 'Hind Siliguri', sans-serif;
+	color: #2C3543;
+}
+a {
+	text-decoration: none;
+	color: #2C3744;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+/**
+h3 {
+	font-size: 28px;
+	font-weight: 300;
+	margin-bottom: 16px;
+	line-height: 1.2;
+}
+.Products {
+	margin: 128px 0;
+}
+.container {
+	width: 100%;
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+.Promotion {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -40px;
+}
+.PromotionItem {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 40px;
+}
+.PromotionItem-description {
+	width: 60%;
+	padding-right: 24px;
+}
+.cover {
+	width: 40%;
+}
+.cover img {
+	width: 100%;
+}
+.description {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #7E838B;
+	font-weight: 300;
+	margin-bottom: 54px;
+}
+.with-arrow {
+	color: #297CBB;
+	font-size: 12px;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+}
+.with-arrow span {
+	padding-right: 1em;
+}
+.with-arrow span::after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 6px;
+	height: 6px;
+	border-top: 1px solid #297CBB;
+	border-right: 1px solid #297CBB;
+	transform: rotate(45deg);
+	margin-top: -5px;
+}
+@media (max-width: 1000px) {
+	.Promotion {
+		flex-direction: column;
+		margin-left: 0;
+	}
+	.PromotionItem {
+		width: 100%;
+		padding-left: 0;
+		margin-bottom: 64px;
+		align-items: center;
+	}
+	.description {
+		margin-bottom: 24px;
+	}	
+}
+@media (max-width: 670px) {
+	.PromotionItem {
+		width: 100%;
+		flex-direction: column;
+		padding-left: 0;
+	}
+	.PromotionItem-description {
+		width: 100%;
+		padding-right: 0;
+	}
+	.cover {
+		width: 100%;
+	}
+}
