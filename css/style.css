@@ -84,6 +84,7 @@ h3::before {
 }
 .detail {
 	width: 60%;
+	padding-left: 24px;
 }
 .rank {
 	font-size: 14px;
