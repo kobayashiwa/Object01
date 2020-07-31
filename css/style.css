@@ -20,18 +20,15 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
-
+.Destinations {
+	margin: 128px 0;
+}
 
 
 
 
 /**
-h3 {
-	font-size: 28px;
-	font-weight: 300;
-	margin-bottom: 16px;
-	line-height: 1.2;
-}
+
 .Products {
 	margin: 128px 0;
 }
