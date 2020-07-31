@@ -61,12 +61,17 @@ h3::before {
 }
 .SightsList {
 	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
 }
 .Map {
 	width: 50%;
 }
 .Map  img {
 	width: 100%;
+}
+.Item {
+	width: 50%;
 }
 
 
