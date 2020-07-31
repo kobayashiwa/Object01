@@ -77,12 +77,26 @@ h3::before {
 }
 .cover {
 	width: 40%;
+	position: relative;
 }
 .cover img {
 	width: 100%;
 }
 .detail {
 	width: 60%;
+}
+.rank {
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	background: rgb(0, 0, 0, 0.6);
+	top: 0;
+	left: 0;
 }
 
 
