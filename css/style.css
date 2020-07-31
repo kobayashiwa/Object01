@@ -65,6 +65,9 @@ h3::before {
 .Map {
 	width: 50%;
 }
+.Map  img {
+	width: 100%;
+}
 
 
 
