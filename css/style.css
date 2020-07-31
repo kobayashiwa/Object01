@@ -117,6 +117,9 @@ h3::before {
 	h3 {
 		font-size: 32px;
 	}
+	.heading {
+		margin-bottom: 48px;
+	}
 }
 
 
@@ -128,12 +131,6 @@ h3::before {
 
 
 
-.container {
-	width: 100%;
-	max-width: 1290px;
-	margin: 0 auto;
-	padding: 0 24px;
-}
 .Promotion {
 	display: flex;
 	flex-wrap: wrap;
