@@ -78,6 +78,9 @@ h3::before {
 .cover {
 	width: 40%;
 }
+.cover img {
+	width: 100%;
+}
 .detail {
 	width: 60%;
 }
