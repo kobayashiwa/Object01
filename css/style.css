@@ -55,6 +55,16 @@ h3::before {
 	margin: 0 auto;
 	padding: 0 24px;
 }
+.RowFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.SightsList {
+	width: 50%;
+}
+.Map {
+	width: 50%;
+}
 
 
 
