@@ -72,6 +72,14 @@ h3::before {
 }
 .Item {
 	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cover {
+	width: 40%;
+}
+.detail {
+	width: 60%;
 }
 
 
