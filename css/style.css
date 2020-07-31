@@ -63,17 +63,19 @@ h3::before {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: -30px;
 }
 .Map {
 	width: 50%;
 }
-.Map  img {
+.Map img {
 	width: 100%;
 }
 .Item {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
+	padding-left: 30px;
 }
 .cover {
 	width: 40%;
