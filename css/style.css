@@ -113,6 +113,11 @@ h3::before {
 	color: #B6C3CA;
 	text-transform: uppercase;
 }
+@media (max-width: 1000px) {
+	h3 {
+		font-size: 32px;
+	}
+}
 
 
 
