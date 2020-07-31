@@ -120,6 +120,18 @@ h3::before {
 	.heading {
 		margin-bottom: 48px;
 	}
+	.RowFlex {
+		flex-direction: column;
+	}
+	.SightsList {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 48px;
+	}
+	.Map {
+		width: 100%;
+		padding-left: 0;
+	}
 }
 
 
