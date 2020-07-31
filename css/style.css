@@ -44,6 +44,7 @@ h3::before {
 }
 .heading {
 	text-align: center;
+	margin-bottom: 80px;
 }
 .Destinations {
 	margin: 128px 0;
